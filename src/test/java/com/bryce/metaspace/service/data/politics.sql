@@ -1,0 +1,13 @@
+[{"politicsCode":"01","politicsName":"中国共产党党员","politicsShortName":"中共党员"},
+{"politicsCode":"02","politicsName":"中国共产党预备党员","politicsShortName":"中共预备党员"},
+{"politicsCode":"03","politicsName":"中国工厂主义青年团团员","politicsShortName":"共青团员"},
+{"politicsCode":"04","politicsName":"中国国民党革命委员会会员","politicsShortName":"民革会员"},
+{"politicsCode":"05","politicsName":"中国民主同盟盟员","politicsShortName":"民盟盟员"},
+{"politicsCode":"06","politicsName":"中国民主建国会会员","politicsShortName":"民建会员"},
+{"politicsCode":"07","politicsName":"中国民主促进会会员","politicsShortName":"民进会员"},
+{"politicsCode":"08","politicsName":"中国农工民主党党员","politicsShortName":"农工党党员"},
+{"politicsCode":"09","politicsName":"中国致公党党员","politicsShortName":"致公党党员"},
+{"politicsCode":"10","politicsName":"九三学社社员","politicsShortName":"九三学社社员"},
+{"politicsCode":"11","politicsName":"台湾民主自治同盟盟员","politicsShortName":"台盟盟员"},
+{"politicsCode":"12","politicsName":"无党派民主人士","politicsShortName":"无党派民主人"},
+{"politicsCode":"13","politicsName":"群众","politicsShortName":"群众"}]

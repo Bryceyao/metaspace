@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bryce.metaspace.mapper.MetaSpaceMapper">
+	<select id="getType" resultType="com.bryce.metaspace.bean.MetaSpaceType">
+		SELECT * FROM meta_space_type where type_code= #{typeCode}
+	</select>
+	
+	<select id="getTypePropertys" resultType="com.bryce.metaspace.bean.MetaSpaceProperty">
+		SELECT * FROM meta_space_property where type_code= #{typeCode}
+	</select>
+	
+	<select id="getTypeContents" resultType="com.bryce.metaspace.bean.MetaSpaceContent">
+		SELECT * FROM meta_space_content where type_code=#{typeCode} order by row_id
+	</select>
+	
+	
+	<select id="getTypeAllContents" resultType="com.bryce.metaspace.bean.MetaSpaceContent">
+		SELECT * FROM meta_space_content where type_code=#{typeCode} order by row_id
+	</select>
+	
+	<select id="getTypeContents" resultType="com.bryce.metaspace.bean.MetaSpaceContent">
+		SELECT * FROM meta_space_content where type_code=#{typeCode} and property_code=#{propertyCode} and content=#{content} and state=#{state} order by type_code asc
+	</select>
+</mapper>
